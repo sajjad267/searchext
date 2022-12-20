@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Md. Sajjad Hossain Shawon",
+        "dept": "EVV",
+        "ext": "267",
+        "email": "sajjad.shawon3@gmail.com",
+        "pic": "photo/267.PNG"
+    },
+    {
+        "id": 2,
+        "name": "Moin Uddin",
+        "dept": "EVV",
+        "ext": "277",
+        "email": "moin.uddin@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Md. Tamjid Ahemed",
+        "dept": "Payrol",
+        "ext": "145",
+        "email": "tamjid125@gmail.com"
+    }
+]
