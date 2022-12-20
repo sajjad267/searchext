@@ -1,0 +1,120 @@
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: .25rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: white;
+  padding: .5rem;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(218, 240, 248));  
+}
+
+.card > .header {
+  margin-bottom: .25rem;
+}
+
+.card > .body {
+  font-size: .8rem;
+  color: #777;
+}
+
+.card > .dept {
+  font-size: .8rem;
+  color: #777;
+}
+.card > .designation {
+  font-size: 0.95rem;
+  color: rgb(85, 73, 73);
+}
+
+.card > .ext {
+  font-size: .8rem;
+  color: #777;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+
+.container{
+  background-image: linear-gradient(to bottom right, rgb(68, 18, 18), rgb(0, 0, 0));  
+  width:100%;
+  height: 24vh;
+  border-radius: 3px;
+  position: relative;
+  
+}
+
+.search-wrapper {
+  
+  background: rgb(0, 0, 0);
+  width: 85%;
+  height: 26%;
+  max-width: 700px;
+  display: flex;
+  padding: 2px;
+  border-radius: 4px;
+  
+  position: absolute;
+  top: 35%;
+  left: 14%;
+ margin: auto;
+  
+  text-align: center;
+     
+}
+
+#select{
+  background: #30244e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  width: 300px;
+  padding: 2px 20px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+}
+
+#select img{
+  width: 12px;
+}
+#select ul{
+position: absolute;
+top: 63%;
+left: 0;
+list-style: none;
+padding: 0px 20px;
+
+background: rgb(255, 255, 255);
+color: #555;
+width: 83%;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s;
+}
+
+.options:hover {
+background-color: rgb(202, 234, 243);
+}
+
+#select ul.open {
+max-height: 500px;
+}
+
+.search-wrapper input{
+  padding: 10px 25px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+
+}
