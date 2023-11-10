@@ -35,55 +35,32 @@ document.addEventListener("DOMContentLoaded", function () {
           card.appendChild(photoImg);
           card.appendChild(heading);
           card.appendChild(deptPara);
-          card.appendChild(designationPara);
           card.appendChild(extPara);
+          card.appendChild(designationPara);
   
           // Append the card to the container
           cardContainer.appendChild(card);
         }
-          // Loop through the JSON data and create employee cards
-          data.forEach(createEmployeeCard);
-
-        // Function to update the card count
-        function updateCardCount(count) {
-          const cardCount = document.getElementById("cardCount");
-          cardCount.textContent = count;
-      }
   
+        // Loop through the JSON data and create employee cards
+        data.forEach(createEmployeeCard);
   
         // Search functionality
         const searchBox = document.getElementById("searchBox");
-
-
-
-        function updateCardVisibilityAndCount() {
+        searchBox.addEventListener("input", function () {
           const query = searchBox.value.toLowerCase();
           const cards = cardContainer.querySelectorAll(".card");
   
-          let visibleCardCount = 0;
-  
           cards.forEach((card) => {
-              const employeeData = card.textContent.toLowerCase();
-              if (employeeData.includes(query)) {
-                  card.style.display = "block";
-                  visibleCardCount++;
-              } else {
-                  card.style.display = "none";
-              }
+            const employeeData = card.textContent.toLowerCase();
+            if (employeeData.includes(query)) {
+              card.style.display = "block";
+            } else {
+              card.style.display = "none";
+            }
           });
-  
-          updateCardCount(visibleCardCount);
-      }
-
-      
-      searchBox.addEventListener("input", updateCardVisibilityAndCount);
-      // Initially, update card count for all cards
-    updateCardVisibilityAndCount();
-      
+        });
       })
       .catch((error) => console.error("Error fetching data:", error));
   });
   
-
-
-
