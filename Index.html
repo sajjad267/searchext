@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>C&T Home Care Services</title>
+  <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+  <div class="container">
+            <div class="search-wrapper">
+                     <div id="select">
+                        <select id="list" onchange="copyOptionText()">
+                            <!-- <option value="" selected disabled>Select an option</option> -->
+                            <option value="all">All Departments</option>
+                            <option value="Care Management">Case Management</option>
+                            <option value="Payroll Customer Service">Payroll Customer Service</option>
+                            <option value="Payroll Processing">Payroll Processing</option>
+                            <option value="EVV">EVV</option>
+                            <option value="Help Intake">Help Intake</option>
+                            <option value="Intake">Intake</option>
+                            <option value="Clinical">Clinical</option>
+                            <option value="Customer Service">Customer Service</option>
+                            <option value="Accounts Payable">Accounts Payable</option>
+                            <option value="Accounts Receivable">Accounts Receivable</option>
+                            <option value="Aide Registration">Aide Registration</option>
+                            <option value="LHCSA">LHCSA</option>
+                            <option value="Aide Training & Processing">Aide Training & Processing</option>
+                            <option value="Aide Compliance">Aide Compliance</option>
+                        </select>
+                        <input type="text" id="searchBox" placeholder="Search by Name, Department, Designation or Ext.">
+                      </div>
+                      <div id="cardCount" class="count-badge"></div>
+                      
+            </div>
+            <div id="bottom-div">
+                <div class="cards-container" id="employeeCards"></div>
+            </div>
+          </div>
+
+
+  <!-- <template data-user-template>
+    <div class="card">
+        <div class="photo" data-photo></div>
+        <div class="header" data-header></div>
+        <div class="designation" data-designation></div>
+        <div class="dept" data-dept></div>
+        <div class="ext" data-ext></div>
+        <div class="body" data-body></div>
+    </div>
+</template> -->
+  <script src="script.js" defer="defer"></script>
+</body>
+
+
+</html>
