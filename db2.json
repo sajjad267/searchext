@@ -5,7 +5,9 @@
         "ext": 527,
         "dept": "Corporate",
         "designation": "CEO",
-        "photo": "photo/527.PNG"
+        "photo": "photo/527.PNG",
+        "outemail": "uzma.hossain@candthomecare.com",
+        "office":"Jamaica"
     },
     {
         "no": 2,
@@ -13,7 +15,9 @@
         "ext": 528,
         "dept": "Corporate",
         "designation": "Vice President",
-        "photo": "photo/528.PNG"
+        "photo": "photo/528.PNG",
+        "outemail": "uzma.hossain@candthomecare.com",
+        "office":"Jamaica"
     },
     {
         "no": 3,
@@ -171,6 +175,7 @@
         "no": 22,
         "name": "Shafiq Sadaquee",
         "ext": 526,
+        "dept": "Case Management",
         "designation": "Case Manager",
         "photo": "photo/526.PNG"
     },
@@ -761,7 +766,7 @@
         "no": 98,
         "name": "Mahfuj Kabir",
         "ext": 127,
-        "dept": "EVV, Payroll Customer & Payroll Processing",
+        "dept": "EVV, Payroll Customer Service & Payroll Processing",
         "designation": "Manager",
         "photo": "photo/127.PNG"
     },
@@ -1681,7 +1686,7 @@
         "no": 213,
         "name": "Parvaj Kazi",
         "ext": 120,
-        "dept": "Aide Registartion",
+        "dept": "Aide Registration",
         "designation": "Team-Leader",
         "photo": "photo/120.PNG"
     },
@@ -1689,7 +1694,7 @@
         "no": 214,
         "name": "Sharaban Tahura",
         "ext": 138,
-        "dept": "Aide Registartion",
+        "dept": "Aide Registration",
         "designation": "Co-Team Leader",
         "photo": "photo/138.PNG"
     },
@@ -1697,7 +1702,7 @@
         "no": 215,
         "name": "Md. Mainul Islam",
         "ext": 205,
-        "dept": "Aide Registartion",
+        "dept": "Aide Registration",
         "designation": "Coordinator",
         "photo": "photo/205.PNG"
     },
@@ -1705,7 +1710,7 @@
         "no": 216,
         "name": "Md. Mim Faysal Abedin",
         "ext": 237,
-        "dept": "Aide Registartion",
+        "dept": "Aide Registration",
         "designation": "Coordinator",
         "photo": "photo/237.PNG"
     },
@@ -1713,7 +1718,7 @@
         "no": 217,
         "name": "Mohammad Shameem Al-Mamon",
         "ext": 199,
-        "dept": "Aide Registartion",
+        "dept": "Aide Registration",
         "designation": "Coordinator",
         "photo": "photo/199.PNG"
     },
@@ -1721,7 +1726,7 @@
         "no": 218,
         "name": "Rabeya Islam",
         "ext": 207,
-        "dept": "Aide Registartion",
+        "dept": "Aide Registration",
         "designation": "Coordinator",
         "photo": "photo/207.PNG"
     },
@@ -1729,7 +1734,7 @@
         "no": 219,
         "name": "Tahira Tanjin Nahar",
         "ext": 206,
-        "dept": "Aide Registartion",
+        "dept": "Aide Registration",
         "designation": "Coordinator",
         "photo": "photo/206.PNG"
     },
@@ -1737,7 +1742,7 @@
         "no": 220,
         "name": "Stphanie Disla",
         "ext": 417,
-        "dept": "Aide Registartion-DR",
+        "dept": "Aide Registration-DR",
         "designation": "Coordinator",
         "photo": "photo/417.PNG"
     },
@@ -1753,7 +1758,7 @@
         "no": 222,
         "name": "Baseemah Taranoom Proma",
         "ext": 213,
-        "dept": "Aide Training & Processing ",
+        "dept": "Aide Training & Processing",
         "designation": "Co-Team Leader",
         "photo": "photo/213.PNG"
     },
@@ -1761,7 +1766,7 @@
         "no": 223,
         "name": "Airin Hossain",
         "ext": 166,
-        "dept": "Aide Training & Processing ",
+        "dept": "Aide Training & Processing",
         "designation": "Coordinator",
         "photo": "photo/166.PNG"
     },
@@ -1769,7 +1774,7 @@
         "no": 224,
         "name": "Iqbal Ibn Muzib",
         "ext": 204,
-        "dept": "Aide Training & Processing ",
+        "dept": "Aide Training & Processing",
         "designation": "Coordinator",
         "photo": "photo/204.PNG"
     },
@@ -1777,7 +1782,7 @@
         "no": 225,
         "name": "M Monzer Rahaman",
         "ext": 154,
-        "dept": "Aide Training & Processing ",
+        "dept": "Aide Training & Processing",
         "designation": "Coordinator",
         "photo": "photo/154.PNG"
     },
@@ -1785,7 +1790,7 @@
         "no": 226,
         "name": "Md. Javed Abdullah ",
         "ext": 229,
-        "dept": "Aide Training & Processing ",
+        "dept": "Aide Training & Processing",
         "designation": "Coordinator",
         "photo": "photo/229.PNG"
     },
@@ -1793,7 +1798,7 @@
         "no": 227,
         "name": "Monzer Rahaman",
         "ext": 154,
-        "dept": "Aide Training & Processing ",
+        "dept": "Aide Training & Processing",
         "designation": "Coordinator",
         "photo": "photo/154.PNG"
     },
@@ -1801,7 +1806,7 @@
         "no": 228,
         "name": "Mydul Islam",
         "ext": 293,
-        "dept": "Aide Training & Processing ",
+        "dept": "Aide Training & Processing",
         "designation": "Coordinator",
         "photo": "photo/293.PNG"
     },

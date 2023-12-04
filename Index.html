@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>C&T Home Care Services</title>
+  <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Navigation Content -->
+    <div class="content">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+        <div>
+          <h1>C&T Home Care</h1>
+          <h6>Home Care you can trust</h6>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="desktop">
+        <ul class="links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li><a href="#" class="active">Extensions</a></li>
+          <li><a href="/Distribution List/dis.html">Distributions</a></li>
+          <li><a href="#">KPI</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <div class="buttons">
+          <button class="btn login">Login</button>
+          <button class="btn signup">Signup</button>
+        </div>
+      </div>
+      <!-- Menu Icon -->
+      <div class="menu-icon" onclick="toggle()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- Mobile Navigation -->
+  <ul class="mobile-nav">
+    <li class="active">
+      <i class="fa-solid fa-house"></i>
+
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-video"></i>
+
+      <a href="#">Extensions</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-film"></i>
+      <a href="/Distribution List/dis.html">Distributions</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-users"></i>
+
+      <a href="#">KPI</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-address-card"></i>
+
+      <a href="#">About</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-right-to-bracket"></i>
+
+      <a href="#">Login</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-user-plus"></i>
+
+      <a href="#">Signup</a>
+    </li>
+  </ul>
+
+  <div class="container">
+            <div class="search-wrapper">
+                     <div id="select">
+                        <select id="list" >
+                            <!-- <option value="" selected disabled>Select an option</option> -->
+                            <option value="all">All Departments</option>
+                            <option value="Corporate">Corporate</option>
+                            <option value="Case Management">Case Management</option>
+                            <option value="Business Development & Marketing">Business Development & Marketing</option>
+                            <option value="Referrals">Referrals</option>
+                            <option value="Lead Management">Lead Management</option>
+                            <option value="Payroll Customer Service">Payroll Customer Service</option>
+                            <option value="Payroll Processing">Payroll Processing</option>
+                            <option value="EVV">EVV</option>
+                            <option value="Intake">Intake</option>
+                            <option value="Intake Help">Intake Help</option>
+                            <option value="Aide Registration">Aide Registration</option>
+                            <option value="Aide Compliance">Aide Compliance</option>
+                            <option value="Aide Training & Processing">Aide Training & Processing</option>
+                            <option value="LHCSA Care Team">LHCSA Care Team</option>
+                            <option value="Clinical Services">Clinical Services</option>
+                            <option value="Accounts Receivable">Accounts Receivable</option>
+                            <option value="Accounts Payable">Accounts Payable</option>
+                            <option value="Customer Service">Customer Service</option>
+                            <option value="On-Call Coordinator">On-Call Coordinator</option>
+                            <option value="Maryland & Virginia">Maryland & Virginia</option>
+                            <option value="Creativity & Technology">Creativity & Technology</option>
+                            <option value="C&T Medical">C&T Medical</option>
+
+                        </select>
+                        <input type="text" id="searchBox" placeholder="Search by Name, Department, Designation or Ext.">
+                      </div>
+                      <div id="cardCount" class="count-badge"></div>
+                      
+            </div>
+            <div id="bottom-div">
+                <div class="cards-container" id="employeeCards" data-dept="${employee.dept}"></div>
+            </div>
+          </div>
+
+  <script src="script.js" defer="defer"></script>
+</body>
+
+
+</html>
