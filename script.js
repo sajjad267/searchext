@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
           officePara.textContent = `Office: ${employee.office}`;
   
           const spResponsePara = document.createElement("p");
-          spResponsePara.textContent = `Assigned For: ${employee.spResponse}`;
+          spResponsePara.textContent = `Overseeing: ${employee.spResponse}`;
   
           // Append elements to the card content
           cardContent.appendChild(photoImg);
