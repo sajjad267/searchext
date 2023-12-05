@@ -245,24 +245,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body, html {
   height: 100%;
   margin: 0;
@@ -283,18 +265,56 @@ body, html {
   background-image: linear-gradient(to bottom right, rgb(153, 193, 229), rgb(245, 238, 238));
   border-radius: 4px;
   padding: 10px;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 10px 10px;
   box-shadow: #ddd;
+  position: relative;
+}
+
+.icon-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.icon-container .icon:hover {
+  background-color: rgb(153, 193, 229); /* Change the background color as needed */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adjust the box shadow as needed */
+}
+
+.icon-container .icon:hover::after {
+  content: attr(alt);
+  position: absolute;
+  bottom: 100%; /* Position the tooltip above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  padding: 4px 8px; /* Adjust the padding as needed */
+  border-radius: 4px; /* Adjust the border radius as needed */
+  font-size: 12px; /* Adjust the font size as needed */
+  opacity: 0; /* Initially hide the tooltip */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+.icon-container .icon:hover::after {
+  opacity: 1; /* Show the tooltip on hover */
+}
+
+.icon-container .icon.active {
+  background-color: rgb(153, 193, 229);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 #select {
-  
-  margin: 50% 0px 50% 0px;
-  position: relative;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  position: relative;
   border: 1px solid #ccc;
+  margin-top: 50px;
 }
 
 #select select{
@@ -303,9 +323,9 @@ body, html {
   padding: 10px 4px 10px 10px;
   font-size: 14px;
   border: 1px solid #ccc;
-  background-color: #0f0f0f;
+  background-color: rgb(15, 41, 88);
   color: #fff;
-  width: 180px;
+  width: 210px;
   border-radius: 5px 0px 0px 5px;
   cursor: pointer;
 }
@@ -385,7 +405,7 @@ body, html {
   padding: 10px;
   
   width: 350px;
-  height: 200px;
+  height: 230px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
     overflow: hidden;
@@ -460,9 +480,12 @@ body, html {
   border-radius: 50%; /* Make it round */
   padding: 10px 10px;
   margin-left: 10px;
+  margin-top: 50px;
 }
 .custom-notification{
   color: maroon;
   font-weight: 700;
   text-align: center;
 }
+
+
