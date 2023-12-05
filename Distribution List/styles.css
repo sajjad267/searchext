@@ -1,0 +1,156 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.email_head_col{
+  width: 35%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.search-wrapper {
+  height: 25%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgb(153, 193, 229), rgb(245, 238, 238));  
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+}
+.count {
+  background-color: rgb(204, 200, 192);
+  display: flex;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.count h4{
+  text-align: center;
+  align-items: center;
+}
+#select {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+#select select{
+  appearance: none;
+  outline: none;
+  padding: 10px 4px 10px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #0f0f0f;
+  color: #fff;
+  width: 220px;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+}
+.catCol {
+  width: 7%;
+  min-width: 90px; 
+  text-align: center;
+}
+
+.detailCol {
+  width: 64%;
+  min-width: 180px;  
+}
+
+.emailToCol, .emailCcCol {
+  width: 13%;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+.openOutlook {
+  width: 3%;
+  min-width: 10px;
+  min-width: 15px;
+  
+}
+.openOutlook img{
+  display: flex;
+  width: 30px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+#dropdown{
+  padding: 0px 0px 0px 100px;
+  background-color: rgb(170, 73, 73);
+}
+
+#select input {
+  appearance: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 350px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#bottom-div {
+  height: 70%;
+  margin: 0px 10px 0px 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+th {
+  background-color: #ccc;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+th, td {
+  border: 1px solid rgb(139, 127, 127);
+}
+tr {
+  height: 38px;
+}
+#firstColumn {
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #f8e7e7;
+}
+a {
+  cursor: pointer;
+}
+td {
+  padding: 5px 5px;
+}
+tr:hover {
+  background-color: #bfd5df;
+  
+}
+button {
+  padding: 10px 20px;
+}
+
+.hide {
+  display: none;
+}
+.dropdown select::-ms-expand {
+  display: none;
+}

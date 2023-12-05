@@ -1,0 +1,145 @@
+[
+{
+    "ID": "CDP-C01",
+    "Category": "CDP-Complaint",
+    "Detail": "Complaints received from MLTC or Department of Health, New York State",
+    "TitleTO": "Complaint Management",
+    "EmailTO": "complaint.management@candthomecare.com",
+    "ConcernConnected": "Complaint-Management"
+},
+{
+    "ID": "CDP-C02",
+    "Category": "CDP-Complaint",
+    "Detail": "Complaints from the patient about their own aides or other issues regarding the aide",
+    "TitleTO": "Case Manager",
+    "TitleCC": "ACM",
+    "ConcernConnected": "CM,\r\nCC: ACM"
+},
+{
+    "ID": "CDP-C03",
+    "Category": "CDP-Complaint",
+    "Detail": "Payroll Complaints from the Patients or the Aides",
+    "TitleTO": "Payroll Complaint",
+    "EmailTO": "payrollcomplaint@candthomecare.com",
+    "ConcernConnected": "Mahfuj, Abir, Moin, Jubair, Baseemah, Complaint-Management"
+},
+{
+    "ID": "CDP-C04",
+    "Category": "CDP-Complaint",
+    "Detail": "Audit Issues from DOH, OMIG, or Investigator Chris Webber (High Priority)",
+    "TitleTO": "Audit",
+    "EmailTO": "Audit@candthomecare.com",
+    "ConcernConnected": "Ms. Uzma Hossain, Murray, Ali, Wilson, Mahfuj, Annie, Cristina, Garcia, Lamiur, Asaf, Tariful"
+},
+{
+    "ID": "CDP-C05",
+    "Category": "CDP-Complaint",
+    "Detail": "MLTC Audit (High Priority)",
+    "TitleTO": "MLTC Audit",
+    "EmailTO": "MLTCAudit@candthomecare.com",
+    "ConcernConnected": "Murray, Ms. Uzma Hossain, Annie,Tariful, Cristina Garcia, Mahfuj, Lamiur, Asaf, Lidia, Baseemah"
+},
+{
+    "ID": "CDP-N01",
+    "Category": "CDP-New PT",
+    "Detail": "New Lead (CDPAP)",
+    "TitleTO": "Referrals",
+    "EmailTO": "referrals@candthomecare.com\r\n",
+    "ConcernConnected": "REF"
+},
+{
+    "ID": "CDP-N02",
+    "Category": "CDP-New PT",
+    "Detail": "New Lead (CDPAP) (if it comes from an existing lead)",
+    "TitleTO": "Referrals",
+    "TitleCC": "CM, ACM",
+    "EmailTO": "referrals@candthomecare.com\r\n",
+    "ConcernConnected": "REF,\r\nCC: CM, ACM"
+},
+{
+    "ID": "CDP-N03",
+    "Category": "CDP-New PT",
+    "Detail": "Confirmation of New CDPAP Enrollment",
+    "TitleTO": "Referrals",
+    "TitleCC": "CM, ACM",
+    "EmailTO": "referrals@candthomecare.com",
+    "ConcernConnected": "REF,\r\nCC: CM, ACM"
+},
+{
+    "ID": "CDP-N04",
+    "Category": "CDP-New PT",
+    "Detail": "Patient interested in P2P Process",
+    "TitleTO": "Referrals",
+    "TitleCC": "CM, ACM",
+    "EmailTO": "referrals@candthomecare.com",
+    "ConcernConnected": "REF\r\nCC: CM, ACM"
+},
+{
+    "ID": "CDP-N05",
+    "Category": "CDP-New PT",
+    "Detail": "Notification or Confirmation of (i) P2P Process (Insurance to Insurance) or (ii) Intra-plan transfer (MAP to MLTC / MLTC to MAP\r\n/ MLTC to MCO / MCO to MLTC, MCO to MAP, MAP to MCO, etc.)",
+    "TitleTO": "CDPAPP2P",
+    "TitleCC": "CM, ACM",
+    "EmailTO": "CDPAPP2P@candthomecare.com",
+    "ConcernConnected": "INT, REF"
+},
+{
+    "ID": "CDP-N06",
+    "Category": "CDP-New PT",
+    "Detail": "Prospective member in process of enrolling no longer wants service",
+    "TitleTO": "Referrals",
+    "TitleCC": "CM, ACM",
+    "EmailTO": "referrals@candthomecare.com",
+    "ConcernConnected": "REF\r\nCC: CM, ACM"
+},
+{
+    "ID": "CDP-N07",
+    "Category": "CDP-New PT",
+    "Detail": "DOH Form/ NYIA Receipt / M11Q Form / Medication List Received",
+    "TitleTO": "Referrals",
+    "EmailTO": "referrals@candthomecare.com",
+    "ConcernConnected": "REF"
+},
+{
+    "ID": "CDP-N08",
+    "Category": "CDP-New PT",
+    "Detail": "Notification of NYIA Status",
+    "TitleTO": "Referrals",
+    "TitleCC": "CM, ACM",
+    "EmailTO": "referrals@candthomecare.com",
+    "ConcernConnected": "REF\r\nCC: CM, ACM"
+},
+{
+    "ID": "CDP-N09",
+    "Category": "CDP-New PT",
+    "Detail": "Processing Patient Medicaid Number / Medicaid or Plan Issue",
+    "TitleTO": "Referrals",
+    "EmailTO": "referrals@candthomecare.com",
+    "ConcernConnected": "REF"
+},
+{
+    "ID": "CDP-N10",
+    "Category": "CDP-New PT",
+    "Detail": "No attached plan on ePACES / Any ePACES / Plan Issue",
+    "TitleTO": "CDPAPMedicaid",
+    "TitleCC": "CM, ACM",
+    "EmailTO": "CDPAPMedicaid@candthomecare.com",
+    "ConcernConnected": "INT, REF\r\nCC: CM, ACM"
+},
+{
+    "ID": "CDP-N11",
+    "Category": "CDP-New PT",
+    "Detail": "Patient’s MLTC “Nurse Assessment” Status",
+    "TitleTO": "Referrals",
+    "EmailTO": "referrals@candthomecare.com",
+    "ConcernConnected": "REF"
+},
+{
+    "ID": "CDP-N12",
+    "Category": "CDP-New PT",
+    "Detail": "Other Agency Authorization Received: Patient Unknown, NO QB found",
+    "TitleTO": "James Hossain ",
+    "EmailTO": "jhossain@candthomecare.com",
+    "ConcernConnected": "JH,"
+}
+]

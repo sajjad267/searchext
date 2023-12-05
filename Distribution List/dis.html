@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Distribution List</title>
+  <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+  <div class="container">
+    <div class="search-wrapper">
+      <div id="select">
+          <select id="list" onchange="DropDown()">
+            <option value="" selected disabled>Select an option</option>
+            <option id="dropdown" value="All Distribution">All Distribution</option>
+            <option value="" selected disabled>CDPAP</option>
+            <option id="dropdown" value="CDPAP-Complain">CDPAP-Complain</option>
+            <option id="dropdown" value="CDPAP-New Patients">CDPAP-New Patients</option>
+            <option id="dropdown" value="CDPAP-Existing Patients">CDPAP-Existing Patients</option>
+            <option id="dropdown" value="CDPAP-Aide">CDPAP-Aide</option>
+            <option id="dropdown" value="LHCSA-Complain">LHCSA-Complain</option>
+            <option id="dropdown" value="LHCSA-New Patients">LHCSA-New Patients</option>
+            <option id="dropdown" value="LHCSA-Existing Patients">LHCSA-Existing Patients</option>
+            <option id="dropdown" value="LHCSA-Aide">LHCSA-Aide</option>
+            <option id="dropdown" value="CORPORATE-Notifications">CORPORATE-Notifications</option>
+            <option id="dropdown" value="CORPORATE-Time-Off/Resignation Leter">CORPORATE-Time-Off/Resignation Leter</option>
+            <option id="dropdown" value="CORPORATE-Office Manager">CORPORATE-Office Manager</option>
+            <option id="dropdown" value="Department Official">Department Official</option>
+            <option id="dropdown" value="Case Management">Case Management</option>
+            <option id="dropdown" value="Care Team">Care Team</option>
+          </select>
+          
+        <input type="search" id="inputField" placeholder="Search by any keyword" data-search>
+      </div>
+      <div class="count"><h4>26</h4></div>
+    </div>
+
+
+    
+
+    <div id="bottom-div">
+      <!-- Content for the bottom div -->
+      <table>
+            <tr>
+                <!-- <th class="id">ID</th> -->
+                <th class="catCol">CATEGORY</th>
+                <th class="detailCol">DETAIL EXPLIANATIONS</th>
+                <th class="emailToCol">TO</th>
+                <th class="hiddenEmailTo">HideEmail</th>
+                <th class="emailCcCol">CC</th>
+                <!-- <th class="hiddenEmailCC">HideEmailCC</th> -->
+                <th class="openOutlook"></th>
+            </tr>
+      </table>
+      <div class="user-cards" data-user-cards-container></div>
+    </div>
+  </div>
+        <template data-user-template>
+          <table>
+            <tr>
+              <!-- <td class="id" data-id></td> -->
+              <td class="catCol" data-category></td>
+              <td class="detailCol" data-details></td>
+              <td class="emailToCol" class="copy-text" data-emailTo></td>
+              <td class="hiddenEmailTo" data-emailToHide></td>
+              <td class="emailCcCol" data-emailCc></td>
+              <!-- <td class="hiddenEmailCC" data-emailCcHide></td> -->
+              <td class="openOutlook" ><img src="logo_outl.png"></td>
+            </tr>      
+          </table>
+        </template>
+   
+  <script src="script.js" defer="defer"></script>
+</body>
+
+
+
+
+
+</html>
