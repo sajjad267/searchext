@@ -82,7 +82,14 @@
 
   <div class="container">
             <div class="search-wrapper">
-                     <div id="select">
+                      <!-- Add your images as buttons in the left corner -->
+                      <div class="icon-container">
+                        <img src="1.png" alt="Image 1" class="icon" />
+                        <img src="2.png" alt="Image 2" class="icon" />
+                        <img src="3.png" alt="Image 3" class="icon" />
+                    </div>
+                 <div id="select">
+                     
                         <select id="list" >
                             <!-- <option value="" selected disabled>Select an option</option> -->
                             <option value="all">All Departments</option>
@@ -110,11 +117,44 @@
                             <option value="C&T Medical">C&T Medical</option>
 
                         </select>
+
+                        <select id="list1" >
+                          <!-- <option value="" selected disabled>Select an option</option> -->
+                          <option value="all">All Designations</option>
+                          <option value="CEO">CEO</option>
+                          <option value="Vice President">Vice President</option>
+                          <option value="Chief Operating Officer">Chief Operating Officer</option>
+                          <option value="Director">Director</option>
+                          <option value="Office Manager">Office Manager</option>
+                          <option value="Case Manager">Case Manager</option>
+                          <option value="Human Resource Associate">Human Resource Associate</option>
+                          <option value="Team Manager">Team Manager</option>
+                          <option value="Assistant Manager">Assistant Manager</option>
+                          <option value="Team-Leader">Team-Leader</option>
+                          <option value="Co-Team Leader">Co-Team Leader</option>
+                          <option value="Coordinator">Coordinator</option>
+
+                      </select>
+
+                      <select id="list3" >
+                        <!-- <option value="" selected disabled>Select an option</option> -->
+                        <option value="all">All Offices</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="DR">DR</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Bronx">Bronx</option>
+                        <option value="Jackson Hight">Jackson Hight</option>
+
+                    </select>
                         <input type="text" id="searchBox" placeholder="Search by Name, Department, Designation or Ext.">
                       </div>
                       <div id="cardCount" class="count-badge"></div>
                       
+                      
+
+
             </div>
+            
             <div id="bottom-div">
                 <div class="cards-container" id="employeeCards" data-dept="${employee.dept}"></div>
             </div>
