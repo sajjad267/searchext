@@ -231,6 +231,18 @@ const addActive = (array, activeLink) => {
   });
 };
 
+
+function setActiveLink(link) {
+  // Remove "active" class from all links
+  const links = document.querySelectorAll('#navLinks a');
+  links.forEach((item) => {
+    item.classList.remove('active');
+  });
+
+  // Add "active" class to the clicked link
+  link.classList.add('active');
+}
+
 // Calling 'addActive()' for desktop nav
 // Calling 'addActive()' for desktop nav links
 addActive(navLinks, ".links li a.active");
