@@ -2157,7 +2157,6 @@
     {
         "no": 237,
         "name": "Lisbeth Rodriguez",
-        "ext": "\"\"",
         "dept": "Aide Training & Processing-DR",
         "designation": "Coordinator",
         "photo": "photo/\"\".PNG",
@@ -2167,7 +2166,7 @@
         "no": 238,
         "name": "Shovon Anthony Gomes ",
         "ext": 311,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Team-Leader",
         "photo": "photo/311.PNG",
         "office": "Dhaka"
@@ -2176,7 +2175,7 @@
         "no": 239,
         "name": "Tanvir Ahmed Tonmay",
         "ext": 304,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Co-Team Leader",
         "photo": "photo/304.PNG",
         "office": "Dhaka"
@@ -2185,7 +2184,7 @@
         "no": 240,
         "name": "Adil Shadman",
         "ext": 177,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/177.PNG",
         "office": "Dhaka"
@@ -2194,7 +2193,7 @@
         "no": 241,
         "name": "Rashedul Hoque Polash ",
         "ext": 242,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/242.PNG",
         "office": "Dhaka"
@@ -2203,7 +2202,7 @@
         "no": 242,
         "name": "Tanvir Hasan",
         "ext": 236,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/236.PNG",
         "office": "Dhaka"
@@ -2212,7 +2211,7 @@
         "no": 243,
         "name": "Anika Bushra ",
         "ext": 218,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/218.PNG",
         "office": "Dhaka"
@@ -2221,7 +2220,7 @@
         "no": 244,
         "name": "Tanvir Hossain",
         "ext": 306,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/306.PNG",
         "office": "Dhaka"
@@ -2230,7 +2229,7 @@
         "no": 245,
         "name": "Lioyaja Rahman",
         "ext": 316,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/316.PNG",
         "office": "Dhaka"
@@ -2239,7 +2238,7 @@
         "no": 246,
         "name": "Musfika Rahman Misty",
         "ext": 243,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/243.PNG",
         "office": "Dhaka"
@@ -2248,7 +2247,7 @@
         "no": 247,
         "name": "Mazba Uddin",
         "ext": 307,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/307.PNG",
         "office": "Dhaka"
@@ -2257,7 +2256,7 @@
         "no": 248,
         "name": "Md. Mossaraf Hossen",
         "ext": 321,
-        "dept": "Clinical",
+        "dept": "Clinical Services",
         "designation": "Coordinator",
         "photo": "photo/321.PNG",
         "office": "Dhaka"
@@ -2266,7 +2265,7 @@
         "no": 249,
         "name": "Nicole Paulino",
         "ext": 440,
-        "dept": "Clinical-DR",
+        "dept": "Clinical Services-DR",
         "designation": "Coordinator",
         "photo": "photo/440.PNG",
         "office": "DR"
@@ -2275,7 +2274,7 @@
         "no": 250,
         "name": "Keiry Rodriguez",
         "ext": 428,
-        "dept": "Clinical-DR",
+        "dept": "Clinical Services-DR",
         "designation": "Coordinator",
         "photo": "photo/428.PNG",
         "office": "DR"
@@ -2284,7 +2283,7 @@
         "no": 251,
         "name": "Razia Sultana",
         "ext": 523,
-        "dept": "Intake and Help Intake",
+        "dept": "Team Intake and Help-Intake",
         "designation": "Team Manager",
         "outemail": "sultana.razia@candthomecare.com"
     },
@@ -2292,7 +2291,7 @@
         "no": 252,
         "name": "Forman Ullah",
         "ext": 210,
-        "dept": "Intake",
+        "dept": "Team Intake",
         "designation": "Team-Leader",
         "office": "Dhaka"
     },
@@ -2300,28 +2299,28 @@
         "no": 253,
         "name": "Shakerul Islam",
         "ext": 232,
-        "dept": "Intake",
+        "dept": "Team Intake",
         "designation": "Co-Team Leader",
         "office": "Dhaka"
     },
     {
         "no": 254,
         "name": "Shahan Islam Nova",
-        "dept": "Intake",
+        "dept": "Team Intake",
         "designation": "Coordinator",
         "office": "Dhaka"
     },
     {
         "no": 255,
         "name": "Shahriar Arafat Shawon",
-        "dept": "Intake",
+        "dept": "Team Intake",
         "designation": "Coordinator",
         "office": "Dhaka"
     },
     {
         "no": 256,
         "name": "Mohiminul Ahmed Piyal",
-        "dept": "Intake",
+        "dept": "Team Intake",
         "designation": "Coordinator",
         "office": "Dhaka"
     },
@@ -2329,7 +2328,7 @@
         "no": 257,
         "name": "Abdullah Al Jubair ",
         "ext": 130,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Team-Leader",
         "photo": "photo/130.PNG",
         "office": "Dhaka"
@@ -2338,7 +2337,7 @@
         "no": 258,
         "name": "Safibindoha Sifat",
         "ext": 193,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Co-Team Leader",
         "photo": "photo/193.PNG",
         "office": "Dhaka"
@@ -2347,7 +2346,7 @@
         "no": 259,
         "name": "Abdullah Al Mamun  ",
         "ext": 224,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/224.PNG",
         "office": "Dhaka"
@@ -2356,7 +2355,7 @@
         "no": 260,
         "name": "Al Mustansir Samit",
         "ext": 142,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/142.PNG",
         "office": "Dhaka"
@@ -2365,7 +2364,7 @@
         "no": 261,
         "name": "Dion Paul",
         "ext": 143,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/143.PNG",
         "office": "Dhaka"
@@ -2374,7 +2373,7 @@
         "no": 262,
         "name": "Iftekharur Alam Raven",
         "ext": 191,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/191.PNG",
         "office": "Dhaka"
@@ -2383,7 +2382,7 @@
         "no": 263,
         "name": "Khalid Omer",
         "ext": 163,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/163.PNG",
         "office": "Dhaka"
@@ -2392,7 +2391,7 @@
         "no": 264,
         "name": "Mahedi Hasan",
         "ext": 174,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/174.PNG",
         "office": "Dhaka"
@@ -2401,7 +2400,7 @@
         "no": 265,
         "name": "Navid Hasan Rafi",
         "ext": 241,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/241.PNG",
         "office": "Dhaka"
@@ -2410,7 +2409,7 @@
         "no": 266,
         "name": "Rifat Tasfiha",
         "ext": 294,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/294.PNG",
         "office": "Dhaka"
@@ -2419,7 +2418,7 @@
         "no": 267,
         "name": "Samius Shalehin",
         "ext": 155,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/155.PNG",
         "office": "Dhaka"
@@ -2428,7 +2427,7 @@
         "no": 268,
         "name": "Sarder Affif Hossain",
         "ext": 173,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/173.PNG",
         "office": "Dhaka"
@@ -2437,7 +2436,7 @@
         "no": 269,
         "name": "Sayed Md Rumman Emon",
         "ext": 265,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/265.PNG",
         "office": "Dhaka"
@@ -2446,7 +2445,7 @@
         "no": 270,
         "name": "Tahzeb Ahmed Rohan",
         "ext": 145,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/145.PNG",
         "office": "Dhaka"
@@ -2455,7 +2454,7 @@
         "no": 271,
         "name": "Tanjila Rahman",
         "ext": 295,
-        "dept": "Help Intake",
+        "dept": "Help-Intake",
         "designation": "Coordinator",
         "photo": "photo/295.PNG",
         "office": "Dhaka"
@@ -2615,7 +2614,7 @@
         "no": 289,
         "name": "Mohammad Arafat",
         "ext": 148,
-        "dept": "Medical",
+        "dept": "C&T Medical",
         "designation": "Team-Leader, Doctor",
         "photo": "photo/148.PNG",
         "office": "Dhaka"
