@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>C&T Home Care Services</title>
+  <link rel="icon" type="image/png" href="../logo.png">
+  <link rel="stylesheet" href="dis.css">
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Navigation Content -->
+    <div class="content">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+        <div>
+          <h1>C&T Home Care</h1>
+          <h6>Home Care you can trust</h6>
+        </div>
+      </div>
+
+      <!-- Links -->
+<div class="desktop">
+  <ul class="links" id="navLinks">
+    <li>
+      <a href="../index.html">Home</a>
+    </li>
+    <li><a href="../ext.html"  onclick="setActiveLink(this)">Extensions</a></li>
+    <li><a href="/Distribution List/dis.html" class="active" onclick="setActiveLink(this)">Distributions</a></li>
+    <li><a href="#" onclick="setActiveLink(this)">KPI</a></li>
+    <li><a href="#" onclick="setActiveLink(this)">About</a></li>
+  </ul>
+  <div class="buttons">
+    <button class="btn login">Login</button>
+    <button class="btn signup">Signup</button>
+  </div>
+</div>
+      <!-- Menu Icon -->
+      <div class="menu-icon" onclick="toggle()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- Mobile Navigation -->
+  <ul class="mobile-nav">
+    <li class="active">
+      <i class="fa-solid fa-house"></i>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-video"></i>
+      <a href="#">Extensions</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-film"></i>
+      <a href="/Distribution List/dis.html">Distributions</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-users"></i>
+      <a href="#">KPI</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-address-card"></i>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-right-to-bracket"></i>
+      <a href="#">Login</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-user-plus"></i>
+      <a href="#">Signup</a>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="search-wrapper">
+      <div id="select">
+        <!-- Add an ID to the select element -->
+          <select id="list" onchange="filterByCategory()">
+            <option value="All Distribution">All Distribution</option>
+            <option value="CDP">CDPAP</option>
+            <option value="CDP-New PT">CDPAP-New PT</option>
+            <option value="CDP-Exist PT">CDPAP-Exist PT</option>
+            <option value="CDP-Aide">CDPAP-Aide</option>
+            <option value="PCA">LHCSA</option>
+            <option value="PCA-New PT">LHCSA-New PT</option>
+            <option value="PCA-Exist PT">LHCSA-Exist PT</option>
+            <option value="PCA-Aide">LHCSA-Aide</option>
+           
+            
+            <!-- Add other options as needed -->
+          </select>
+
+        <input type="search" id="inputField" placeholder="Search by any keyword" data-search>
+      </div>
+      
+      <div id="cardCount" class="count-badge"></div>
+    </div>
+
+    <div id="bottom-div">
+      <!-- Employee Table -->
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>CATEGORY</th>
+            <th>DETAILS</th>
+            <th>TO</th>
+            <th>CC</th>
+            <th>CONNECTED CONCERNS</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="dis.js" defer></script>
+</body>
+</html>
