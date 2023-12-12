@@ -1,0 +1,451 @@
+/* Importing Google Font 'Poppins' */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+/* common variables */
+:root {
+  /* colors */
+  --primary: #0079ff;
+  --primary-light: rgba(0, 121, 255, 0.08);
+  --primary-dark: #0062d3;
+  --light: #ffffff;
+  --dark: #222222;
+  --grey: #efefef;
+  --dark-light: rgba(0, 0, 0, 0.2);
+  /* box-shadow */
+  --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: var(--light);
+  box-shadow: var(--shadow);
+  z-index: 2;
+}
+
+.navbar .content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: inherit;
+}
+
+.content .logo {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 30%;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+}
+.logo h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--dark-light);
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+}
+
+.content .menu-icon {
+  display: none;
+  height: inherit;
+}
+
+.content .menu-icon i {
+  line-height: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: color 0.2s ease;
+}
+
+.content .menu-icon i:hover {
+  color: var(--primary);
+}
+
+.content .desktop {
+  display: flex;
+  align-items: center;
+}
+
+.desktop .links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.links li {
+  margin: 0 1rem;
+}
+
+.links li a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--dark);
+  transition: color 0.2s ease;
+}
+
+.links li a.active {
+  color: var(--primary);
+}
+
+.links li a:hover {
+  color: var(--primary);
+}
+
+.desktop .buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons .btn {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border 0.2s ease, background-color 0.2s ease;
+}
+
+.btn.login {
+  border: 1px solid var(--primary);
+  background-color: transparent;
+  margin-right: 1rem;
+  color: var(--primary);
+}
+
+.btn.login:hover {
+  border: 1px solid var(--primary);
+  background-color: var(--primary-light);
+}
+
+.btn.signup {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.btn.signup:hover {
+  border: 1px solid var(--primary-dark);
+  background-color: var(--primary-dark);
+}
+
+.mobile-nav {
+  position: absolute;
+  left: -400px;
+  top: 80px;
+  width: 320px;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  height: calc(100vh - 80px);
+  background-color: var(--light);
+  z-index: 1;
+  transition: left 0.7s ease;
+}
+
+.backdrop {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: var(--dark-light);
+  z-index: 0;
+}
+
+.mobile-nav li {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.mobile-nav li i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  transition: color 0.2s ease;
+}
+
+.mobile-nav li a {
+  margin-top: 3px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--dark);
+  transition: color 0.2s ease;
+}
+
+.mobile-nav li.active,
+.mobile-nav li.active a {
+  color: var(--primary);
+}
+
+.mobile-nav li:hover a,
+.mobile-nav li:hover i {
+  color: var(--primary);
+}
+
+@media screen and (max-width: 1199px) {
+  .content .desktop {
+    display: none;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+  }
+
+  .logo h1 {
+    font-size: 1.3rem;
+  }
+
+  .content .menu-icon {
+    display: block;
+  }
+
+  .mobile-nav.show {
+    left: 0;
+  }
+
+  .mobile-nav.show + .backdrop {
+    display: block;
+  }
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.email_head_col{
+  width: 35%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.search-wrapper {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgb(153, 193, 229), rgb(245, 238, 238));
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  box-shadow: #ddd;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+.count-badge {
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(218, 240, 248));  
+  color: maroon;
+  font-weight: 700;
+  border-radius: 50%; /* Make it round */
+  padding: 10px 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.custom-notification{
+  color: maroon;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
+
+.count {
+  background-color: rgb(204, 200, 192);
+  display: flex;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.count h4{
+  text-align: center;
+  align-items: center;
+}
+#select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #ccc;
+  margin-top: 50px;
+}
+
+#select select{
+  appearance: none;
+  outline: none;
+  padding: 10px 4px 10px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: rgb(15, 41, 88);
+  color: #fff;
+  width: 210px;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+}
+
+
+#select input {
+  appearance: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 350px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.dropdown select::-ms-expand {
+  display: none;
+}
+
+
+
+.catCol {
+  width: 7%;
+  min-width: 90px; 
+  text-align: center;
+}
+
+.detailCol {
+  width: 64%;
+  min-width: 180px;  
+}
+
+.emailToCol, .emailCcCol {
+  width: 13%;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+.openOutlook {
+  width: 3%;
+  min-width: 10px;
+  min-width: 15px;
+  
+}
+.openOutlook img{
+  display: flex;
+  width: 30px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+#dropdown{
+  padding: 0px 0px 0px 100px;
+  background-color: rgb(170, 73, 73);
+}
+
+
+
+#bottom-div {
+  height: 70%;
+  margin: 0px 10px 0px 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+th {
+  background-color: #ccc;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+th, td {
+  border: 1px solid rgb(139, 127, 127);
+}
+tr {
+  height: 38px;
+}
+#firstColumn {
+  text-align: center;
+}
+/* tr:nth-child(even) {
+  background-color: #f8e7e7;
+} */
+a {
+  cursor: pointer;
+}
+td {
+  padding: 5px 5px;
+}
+/* Add pointer cursor and hover effect for the 3rd and 4th columns */
+td:nth-child(3):hover,
+td:nth-child(4):hover {
+  background-color: rgb(55, 184, 235);
+  color: white;
+  cursor: pointer;
+}
+
+/* Keep the existing hover effect for the entire row */
+tr:hover {
+  background-color: #bfd5df;
+}
+button {
+  padding: 10px 20px;
+}
+
+.hide {
+  display: none;
+}
+.dropdown select::-ms-expand {
+  display: none;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
